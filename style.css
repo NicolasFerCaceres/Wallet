@@ -186,7 +186,13 @@ section {
     font-size: 1.5rem;
 }
 
+.account-arrow-btn {
+    margin: 20px 10px;
+    border-radius: 5px;
+    color: var(--action-font);
+    background: var(--action-color);
 
+}
 
 
 
@@ -218,7 +224,7 @@ section {
 
 .outcome-income {
     display: grid;
-    grid-template-columns: 80px 1fr 80px;
+    grid-template-columns: 100px 1fr 80px;
     grid-template-rows: 1fr;
     padding: 10px 20px;
 }
@@ -236,13 +242,14 @@ section {
     border-radius: 5px;
     color: var(--action-font);
     background-color: var(--action-color);
-    margin: 0 10px;
+    margin: 10px 10px;
 }
 
-.outcome-arrow-btn, .income-arrow-btn, .account-arrow-btn{
+.outcome-arrow-btn, .income-arrow-btn {
     border-radius: 5px;
     color: var(--action-font);
     background: var(--action-color);
+    margin: 10px
 }
 
 /* Register movement */
